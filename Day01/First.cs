@@ -1,13 +1,9 @@
-﻿using System.IO;
-
-namespace Day1
+﻿namespace Day01
 {
-    class First
+    public class First
     {
-        public static int GetResult(string inputFilePath)
+        public static int GetResult(string input)
         {
-            string input = File.ReadAllText(inputFilePath);
-
             int sum = 0;
             for (int i = 1; i <= input.Length; i++)
             {
