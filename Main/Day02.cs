@@ -1,8 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.IO;
-using System.Linq;
-using System.Xml.Linq;
 
 namespace Main
 {
@@ -19,6 +17,7 @@ namespace Main
                 checksum += GetDif(numStrings);
             }
 
+            reader.Close();
             return checksum;
         }
 
@@ -52,6 +51,7 @@ namespace Main
                 sum += GetEvenlyDivisibleResult(reader.ReadLine().Split('\t'));
             }
 
+            reader.Close();
             return sum;
         }
 
