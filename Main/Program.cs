@@ -20,8 +20,16 @@ namespace Main
 
             //Console.WriteLine($"Day07: {Day07.GetFirstResult(Util.GetInputForDay(7))} {Day07.GetSecondResult(Util.GetInputForDay(7))}");
 
-            Console.WriteLine($"Day08: {Day08.GetFirstResult(Util.GetInputForDay(8))} {Day08.GetSecondResult(Util.GetInputForDay(8))}");
+            //Console.WriteLine($"Day08: {Day08.GetFirstResult(Util.GetInputForDay(8))} {Day08.GetSecondResult(Util.GetInputForDay(8))}");
 
+            //Console.WriteLine($"Day09: {Day09.GetFirstResult(Util.GetInputForDay(9))} {Day09.GetSecondResult(Util.GetInputForDay(9))}");
+
+            //Console.WriteLine($"Day10: {Day10.GetFirstResult(Util.GetInputForDay(10))} {Day10.GetSecondResult(Util.GetInputForDay(10))}");
+
+            //Console.WriteLine($"Day11: {Day11.GetFirstResult(Util.GetInputForDay(11))} {Day11.GetSecondResult(Util.GetInputForDay(11))}");
+
+            Console.WriteLine($"Day12: {Day12.GetFirstResult(Util.GetInputForDay(12))} {Day12.GetSecondResult(Util.GetInputForDay(12))}");
+            
             Console.Read();
         }
     }
